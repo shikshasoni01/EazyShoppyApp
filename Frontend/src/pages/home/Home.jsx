@@ -13,7 +13,7 @@ import CatSlider from "../../components/CatSlider/CatSlider";
 import HomeSlider from "./HomeSlider";
 import Product from "../../components/Product/Product";
 
-import Banner1 from "./images/banner.jpg";
+import Banner1 from "./images/banner1.jpg";
 import Banner2 from "./images/banner1.jpg";
 import Banner3 from "./images/banner2.jpg";
 import Banner4 from "./images/banner3.jpg";

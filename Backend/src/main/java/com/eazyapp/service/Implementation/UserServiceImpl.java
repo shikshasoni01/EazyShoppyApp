@@ -51,7 +51,7 @@ public class UserServiceImpl implements UserService {
             {
                 user1.setRole(role.get());
             }else {
-                throw  new EazyShoppyException("Role already exist",400);
+                throw  new EazyShoppyException("Role not exist",400);
             }
             userRepository.save(user1);
         }

@@ -50,7 +50,7 @@ const CatSlider = () => {
                   className="info"
                   style={{ background: itemBg[index % itemBg.length] }}
                 >
-                  <img src={category.imageUrl} alt={category.name} />
+                  {/* <img src={category.imageUrl} alt={category.name} /> */}
                   <h5>{category.name}</h5>
                   {/* <p>{category.itemCount} items</p> */}
                 </div>
