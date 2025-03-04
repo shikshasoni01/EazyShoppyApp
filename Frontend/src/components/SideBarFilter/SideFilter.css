@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.sideFilter {
+  font-family: "Open Sans", serif;
+  margin-bottom: 30px;
+}
+
+.sideFilter h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333333;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.sideFilter h3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 20px;
+  background: #eaeaea;
+  bottom: 0;
+  left: 0;
+}
+
+.sideFilter h3::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 4px;
+  border-radius: 20px;
+  background: #74dd97;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.allListingPage .listingData .sideBarWrapper .sideFilter .card {
+  padding: 25px !important;
+  border-radius: 10px !important;
+}
+
+.sideFilter .catList {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Scrollbar Styling for Category List */
+.sideFilter .catList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sideFilter .catList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sideFilter .catList::-webkit-scrollbar-thumb {
+  background: #74dd975e;
+  border-radius: 10px;
+}
+
+.sideFilter .catList .catItem {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sideFilter .catList .catItem:hover {
+  background: #f8f8f8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.sideFilter .catList .catItem .img {
+  transform: translateY(-1px);
+}
+
+.sideFilter .catList .catItem .cat {
+  font-size: 16px;
+}
+
+.sideFilter .catList .catItem .count {
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: 500;
+  background: #74dd9771;
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+
+.sideFilter .priceRange span {
+  font-size: 14px;
+}
+
+.sideFilter .filters {
+  padding: 10px 0px;
+}
+
+.sideFilter .filters h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.sideFilter .filters ul {
+  max-height: 120px;
+  overflow: scroll;
+  margin-bottom: 0;
+}
+
+.sideFilter .filters ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sideFilter .filters ul::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sideFilter .filters ul::-webkit-scrollbar-thumb {
+  background: #74dd975e;
+  border-radius: 10px;
+}
+
+.sideFilter .filters ul li {
+  width: 100%;
+  /* margin-bottom: 10px; */
+  list-style: none;
+}
+
+.sideFilter .filters .bt {
+  color: #3bb77e;
+  background: #85e7b640;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 15px;
+  transition: all 0.3s;
+}
+
+.sideFilter .filters .bt:hover {
+  color: #fff;
+  background: #3bb77e;
+}

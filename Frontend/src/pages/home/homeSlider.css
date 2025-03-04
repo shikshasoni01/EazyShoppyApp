@@ -1,0 +1,77 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+.homeSlider {
+  padding: 20px;
+}
+
+.home_slider_main {
+  border-radius: 25px;
+  overflow: visible;
+  position: relative;
+}
+
+.home_slider_main .items img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 47%;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  background-color: rgba(252, 252, 252, 0) !important;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.slick-arrow.slick-next {
+  right: 1% !important;
+  background: #cecece2d !important;
+}
+
+.slick-arrow.slick-prev {
+  left: 1% !important;
+  background: #cecece2d !important;
+}
+
+.slick-arrow.slick-prev::before {
+  content: "\f053" !important;
+  font-family: FontAwesome !important;
+}
+
+.slick-arrow.slick-next::before {
+  content: "\f054" !important;
+  font-family: FontAwesome !important;
+}
+
+.slick-arrow:hover {
+  background-color: #3bb77da0 !important;
+  transition: background-color 0.3s;
+}
+
+.slick-dots {
+  bottom: 15px !important; /* Adjust position */
+  text-align: center !important;
+  z-index: 10 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #696969 !important; /* Default dot color */
+  opacity: 0.75 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #3bb77d !important; /* Active dot color */
+  opacity: 1 !important;
+}

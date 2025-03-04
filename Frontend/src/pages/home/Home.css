@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap");
+
+.homeProducts {
+  width: 100%;
+  height: auto;
+  padding: 30px 15px;
+  padding-bottom: 0px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.filterTab {
+  margin-left: 35.2rem;
+}
+
+.filterTab li {
+  margin-left: 20px;
+}
+
+.filterTab li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.filterTab li a:hover {
+  color: #3bb77e !important;
+}
+
+.homeProducts .productRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+
+.homeProducts .productRow .item {
+  width: 20%;
+  padding: 15px 15px;
+}
+
+/* Styling for the banner section */
+.bannersSection {
+  padding: 10px 0;
+}
+
+/* Row styling */
+.bannersSection .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+
+/* UL styling */
+.bannersSection ul {
+  list-style-type: none;
+  padding: 10px 20px;
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+/* LI and image styling */
+.bannersSection .item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bannersSection .item img {
+  border-radius: 8px;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.bannersSection .item img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .bannersSection .row {
+    flex-wrap: wrap;
+  }
+
+  .bannersSection .item {
+    flex: 1 1 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .bannersSection .item {
+    flex: 1 1 100%;
+  }
+}
+
+.homeProducts .proBanner img {
+  height: 430px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.homeProducts .proBanner img:hover {
+  -webkit-box-shadow: 3px 10px 19px -4px rgba(199, 199, 199, 0.73);
+  -moz-box-shadow: 3px 10px 19px -4px rgba(199, 199, 199, 0.73);
+  box-shadow: 3px 10px 19px -4px rgba(199, 199, 199, 0.73);
+}
+
+.homeProductsRow2 .prodSlider .item {
+  padding: 15px 0px;
+  padding-right: 20px !important;
+}
+
+.homeProductsRow2 .slick-arrow:hover.slick-next::before {
+  color: #ffffff !important;
+}
+
+.homeProductsRow2 .slick-arrow:hover.slick-prev::before {
+  color: #ffffff !important;
+}
+
+.topProductsSection {
+  padding: 35px 0px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}

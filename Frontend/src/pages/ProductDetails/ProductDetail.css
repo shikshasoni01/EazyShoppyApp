@@ -1,0 +1,368 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap");
+
+.detailPage {
+  font-family: Arial, sans-serif;
+}
+
+.detailPage .row {
+  margin: 30px;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+/* Product Zoom Styling */
+.productZoom {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2px;
+  overflow: hidden;
+  height: 500px;
+}
+
+.productZoom img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.thumbnail-section {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  gap: 10px;
+}
+
+.thumbnail {
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.3s ease;
+}
+
+.thumbnail img {
+  align-items: center;
+  justify-content: center;
+  max-width: 80px;
+  height: auto;
+}
+
+.thumbnail.active {
+  border-color: #28a745; /* Green border for active thumbnail */
+}
+
+/* Product Info Styling */
+.productInfo {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+.productInfo h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.productInfo .brand {
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.productInfo .brand a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.productInfo .brand a:hover {
+  color: #0056b3;
+}
+
+.productInfo .d-flex.align-items-center {
+  margin-bottom: 15px;
+}
+
+.productInfo .rating {
+  color: #f4b400;
+}
+
+.productInfo .priceSec {
+  margin-top: 15px;
+}
+
+.priceLarge {
+  font-size: 36px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.text-org {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff4a57;
+}
+
+.olPrice {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+/* Product Description */
+.productInfo p {
+  font-size: 16px;
+  color: #495057;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.size-btn {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.quantity-selector button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.actions button {
+  border-radius: 8px;
+}
+
+/* product button actions */
+.productSize {
+  width: 100%;
+  height: auto;
+  padding: 25px 0px;
+}
+
+.productSize ul li {
+  margin-right: 15px !important;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.productSize ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #3bb77e;
+  padding: 7px 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.productSize ul li a.active {
+  background-color: #3d8f6d;
+  color: #ffffff;
+  border: none;
+}
+
+.addCartSection {
+  width: 100%;
+  height: auto;
+}
+
+.addCartSection .counterSec {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #3bb77e !important;
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.addCartSection .counterSec input {
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+  border: 0px;
+  outline: none !important;
+  text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.addCartSection .counterSec input::-webkit-outer-spin-button,
+.addCartSection .counterSec input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.addCartSection .counterSec input[type="number"] {
+  appearance: textfield;
+}
+
+.addCartSection .counterSec .arr {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.addCartSection .counterSec .arr.plus {
+  top: -1px;
+  right: 5px;
+}
+
+.addCartSection .counterSec .arr.minus {
+  bottom: -1px;
+  right: 5px;
+}
+
+.addCartSection .bt {
+  color: #fff;
+  background: #3bb77e;
+  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addCartSection .heart.bt {
+  margin-left: 10px;
+  background: #ececec;
+  color: #3bb77e;
+  padding: 10px;
+}
+
+.addCartSection .bt:hover {
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.addCartSection .bt:active {
+  background: #287a58;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+/* details Page Tabs  */
+.detailsPageTabs {
+  border-radius: 10px !important;
+}
+
+.detailsPageTabs .customTabs .bt {
+  background: #fff;
+  color: #3bb77e;
+  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #3bb77e;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.detailsPageTabs .customTabs ul li {
+  margin: 15px;
+}
+
+.detailsPageTabs .customTabs .bt:hover {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.1px);
+}
+
+.detailsPageTabs .customTabs .bt:active {
+  color: #fff;
+  background: #287a58;
+  transform: translateY(0.1px);
+  box-shadow: none;
+}
+
+.customerReviews {
+  width: 100%;
+  height: 500px;
+  overflow: scroll;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.reviewsCard {
+  margin-bottom: 25px;
+}
+
+.reviewsCard .image {
+  width: 100px;
+}
+
+.reviewsCard .rounded-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+.reviewsCard .rounded-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reviewsCard .info {
+  padding-left: 40px;
+}
+
+.reviewsCard .info .datePosted {
+  color: #6c757d;
+}
+
+.customerReviews::-webkit-scrollbar {
+  width: 8px;
+}
+.customerReviews::-webkit-scrollbar-thumb {
+  background-color: #8888884b;
+  border-radius: 4px;
+}
+.customerReviews::-webkit-scrollbar-thumb:hover {
+  background-color: #5555555e;
+}
+
+.relatedProducts {
+  padding: 20px 0px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.relatedProducts .prodSlider {
+  padding: 5px;
+}
+
+.relatedProducts .prodSlider .item {
+  padding: 10px !important;
+}

@@ -1,0 +1,11 @@
+.table-responsive img {
+  border-radius: 5px;
+}
+
+.table-responsive .table thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-responsive .table tbody td {
+  vertical-align: middle;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap");
+
+/* General Styling */
+.bannerSection {
+  padding: 25px 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* Box Styling */
+.bannerSection .box {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Background Colors for Individual Boxes */
+.bannerSection .col:nth-child(1) .box {
+  background: #e7c18d;
+}
+
+.bannerSection .col:nth-child(2) .box {
+  background: #f8e4d6;
+}
+
+.bannerSection .col:nth-child(3) .box {
+  background: #c2a5cb;
+}
+
+/* Hover Effect for Boxes */
+.bannerSection .box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Content Styling */
+.bannerSection .box .info h3 {
+  font-size: 25px;
+  color: #333;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.bannerSection .box .info button {
+  margin: 4px 0;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background: rgb(65, 179, 120);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.bannerSection .box .info button:hover {
+  background: rgb(55, 149, 100);
+  transform: translateY(-2px);
+}
+
+/* Image Styling */
+.bannerSection .box img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}

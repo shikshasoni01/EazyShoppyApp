@@ -1,0 +1,126 @@
+/* Google Fonts for Professional Typography */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+/* General Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* All Listing Page Styles */
+.allListingPage {
+  width: 100%;
+  padding: 20px 20px;
+  background-color: #ffffff;
+}
+
+.allListingPage .breadcrumbWrap {
+  background: linear-gradient(135deg, #f3f3f3, #b4e0cd);
+  padding: 25px 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.allListingPage .breadcrumbWrap h1 {
+  color: #3bb77e;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Layout Styles */
+.listingData {
+  display: flex;
+  gap: 20px;
+}
+
+/* Sidebar Styles */
+.listingData .sideBarWrapper {
+  max-width: 22%;
+  flex: 0 0 22%;
+}
+
+.listingData .sideBarWrapper .card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: auto;
+}
+
+/* Right Content Styles */
+.listingData .rightContent {
+  max-width: 77%;
+  flex: 0 0 77%;
+}
+
+/* .listingData .rightContent .tab_ Button {
+  margin-left: 20px;
+  background: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 7px 20px !important;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 5px !important;
+} */
+
+.listingData .rightContent .topStrip p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4d4d4d;
+  padding-left: 10px;
+}
+
+.listingData .rightContent .topStrip p span {
+  color: #3bb77e !important;
+}
+
+.rightContent .products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: baseline;
+  padding-left: 10px;
+}
+
+.rightContent .item {
+  flex: 1 1 calc(25% - 16px); /* Each item takes 25% width minus the gap */
+  max-width: calc(25% - 16px);
+  padding: 5px;
+  /* background: #f8f9fa; Light background for items */
+  /* border: 1px solid #dee2e6; Add a border */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Add slight shadow */
+}
+
+/* banner section */
+.bannerImg {
+  padding: 10px;
+  width: 320px;
+}
+
+.bannerImg div img {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .listingData {
+    flex-direction: column;
+  }
+
+  .listingData .sideBarWrapper,
+  .listingData .rightContent {
+    width: 100%;
+  }
+}

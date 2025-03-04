@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.cart-page {
+  padding: 30px 50px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-family: "Be Vietnam Pro", serif;
+}
+
+.cart-page h2 {
+  margin-bottom: 20px;
+}
+
+.cart-page p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
+}
+
+.cart-page .cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-page .cart-table thead {
+  background-color: #f5f5f5;
+}
+
+.cart-page .cart-table th,
+.cart-page .cart-table td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.cart-page .cart-table img {
+  max-width: 60px;
+  border-radius: 5px;
+}
+
+.cart-page .cart-table td p {
+  font-size: 16px;
+  padding-left: 20px !important;
+}
+
+.cart-page .cart-table button {
+  background-color: #5dc687;
+  padding: 6px 12px;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+.cart-page .cart-table .del {
+  background: #dddddd2a;
+  color: red;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-page .cart-table .del:hover {
+  color: #fff;
+  background: rgb(255, 62, 62);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.cart-page .cart-table .del:active {
+  background: #e52c2c;
+  color: #fff;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.cart-page button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cart-page button:hover {
+  background-color: #218838;
+}
+
+.cart-page .quantity-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart-page .card {
+  background: #dddddd51;
+  border-radius: 10px;
+  max-height: 300px;
+}
+
+.cart-page .cart-summary {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.cart-page .cart-summary p {
+  margin: 5px 0;
+}
+
+.cart-page .cart-summary h3 span {
+  font-size: 18px;
+}
+
+.cart-page .cart-summary h3 span .price {
+  font-size: 25px;
+}
+
+.cart-page .cart-summary button {
+  color: #ffffff;
+  background: #007bff;
+  font-size: 16px;
+  margin: 10px 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-page .cart-summary button:hover {
+  background-color: #0056b3;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+.cart-page .cart-summary button:active {
+  background: #3bb77e;
+  color: #fff;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+
+.cart-page .back-button {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.cart-page .back-button:hover {
+  background-color: #218838;
+}
