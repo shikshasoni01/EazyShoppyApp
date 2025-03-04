@@ -105,11 +105,7 @@ npm install prop-types react-hot-toast axios @mui/material react-router-dom reac
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Please ensure your code follows the existing style and includes appropriate documentation.
 
-## 🪪 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## 👨‍💻 Author
 
 Developed by _[Somnath Barangule](https://www.linkedin.com/in/somnath-barangule-278115288) & [Shiksha Soni](https://www.linkedin.com/in/shiksha-sourabh-soni-a5544922a/)_.<br/>
 For any issues or contributions, feel free to raise a pull request or contact us on LinkedIn.
