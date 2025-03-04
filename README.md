@@ -1,4 +1,4 @@
-# 🛍️ EazySoppy Ecommerce Website
+# 🛍️ EazyShoppy Ecommerce Website
 
 EazyShoppy is a full-stack e-commerce website built using Java Spring Boot for backend REST APIs, React.js for the frontend, and MySQL as the database. The project is designed to provide a seamless shopping experience for users and includes an admin panel for managing products, users, and orders.
 
@@ -112,4 +112,4 @@ For any issues or contributions, feel free to raise a pull request or contact us
 
 ---
 
-Thank you for using EazySoppy! If you have any questions or need further assistance, feel free to reach out. Happy coding! 🚀
+Thank you for using EazyShoppy! If you have any questions or need further assistance, feel free to reach out. Happy coding! 🚀
